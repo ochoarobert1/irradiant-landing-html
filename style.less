@@ -97,7 +97,7 @@ body {
 }
 
 body {
-    background: @grayspecial url(bg.jpg);
+    background: @grayspecial url(bg.webp);
     //    -webkit-font-smoothing: antialiased;
     //    text-rendering: optimizeLegibility;
     //    -webkit-user-select: none;
@@ -215,7 +215,7 @@ a {
 }
 
 #particles-background {
-    background: @grayspecial url(bg.jpg);
+    background: @grayspecial url(bg.webp);
 }
 
 lesshat-selector {
@@ -274,14 +274,15 @@ lesshat-selector {
 
     & .totem-second-1 {
         &:before {
+            animation: pulse 3s ease-in-out 2s infinite alternate;
             background: @replacered3;
         }
     }
 
     & .totem-second-2 {
         &:before {
-            animation: pulse 3s ease-in-out 2s infinite alternate;
-            background: @replacered3;
+            
+            display: none;
         }
         & img {
             .transform(rotate(180deg));
@@ -356,19 +357,19 @@ lesshat-selector {
 }
 
 .main-item-wrapper-1 {
-    background: url('new_icon_bg01.jpg');
+    background: url('new_icon_bg01.webp');
 }
 
 .main-item-wrapper-2 {
-    background: url('new_icon_bg02.jpg');
+    background: url('new_icon_bg02.webp');
 }
 
 .main-item-wrapper-3 {
-    background: url('new_icon_bg03.jpg');
+    background: url('new_icon_bg03.webp');
 }
 
 .main-item-wrapper-4 {
-    background: url('new_icon_bg04.jpg');
+    background: url('new_icon_bg04.webp');
 }
 
 .custom-modal {
